@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&family=Orelega+One&family=Square+Peg&family=Titillium+Web:wght@200;300;400;600&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Varela+Round&display=swap');
+
+* {
+  font-family: 'Orelega One', 'Lora', serif, 'Nunito', sans-serif, 'Square Peg', cursive, 'Ubuntu', 'Varela Round';
+  color: #fff;
+  text-align: center;
+}
+
+body {
+  background-color: darkslategray;
+}
+
+#app .navbar {
+    border-bottom: thin solid #fff;
+    padding: 0;
+}
+
+#app .navbar-nav .nav-item {
+  margin: 0 15px;
+}
+
+#app .navbar-nav .link {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+#app .navbar-nav .link:hover, .link:visited,
+hr {
+  color: #4fc08d;
+}
+
+#app h2 {
+  margin: 20px 0 5px 0;
+}
+
+#app h5 {
+  color: #d1d1d1;
+  margin: 5px 0 15px 0;
+  font-size: 18px;
+}
+
+#app h2, #app h5,
+.item-card .card-title,
+.item-card .card-text,
+.item-card .card-text strong,
+button.btn {
+  text-transform: capitalize;
+}
+
+button.btn {
+  background-color: #4fc08d;
+  margin-top: 10px;
+}
+
+.item-card .card-title,
+.item-card .card-text,
+.item-card .card-text strong {
+  color: darkslategray;
+}
+
+.footer-bottom {
+  text-align: center;
+  background-color: darkslategray;
+  border-top: thin solid #fff;
+  padding: 20px 0;
+  font-size: 12px;
+  text-transform: capitalize;
+}
+
+.footer-bottom a {
+  color: #4fc08d;
+  text-decoration: none;
+}
